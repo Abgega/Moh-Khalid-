@@ -1,88 +1,64 @@
 <!DOCTYPE html>
-<html class="en">
-    <head>
-        
-        <title>CV MK</title>
-        <meta charset="UTF-8"/>
-        <style>*{
-    padding: 0;
-    margin: 0;
-}
-#home{
-    background-color: black;
-    width: 100%;
-    height: 100vh;
-}
-#home ul{
-    display: flex;
-}
-#home .menu li{
-    flex: 1;
-    list-style-type: none;
-    text-align: center;
-}
-#home .menu li a{
-    color: white;
-    list-style-type: none;
-    text-decoration: none;
-}
-#home .menu li a:hover{
-    color: aqua;
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Personal Website</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-}
-#home .logo{
-    color: white;
-    display: flex;
-}
-#home .logo span{
-    color: aqua;
-}
-#aboutme{
-    background-color: rgba(0, 0, 0, 0.925);
-    width: 100%;
-    height: 100vh;
-}
-#aboutme{
-    color: white;
-    text-align: center;
-}
-#aboutme p{
-    margin-top: 100px;
-    font-size: 30px;
-}
-#aboutme h1{
-    color: aqua;
-}</style>
-    </head>
-    <body>
-<div id="home">
-    <div class="logo"><h1>MK <span>NASRON</span></h1></div>
-    <ul class="menu">
-        <li><a href="#home">home</a></li>
-        <li><a href="#aboutme">about me</a></li>
-        <li><a href="e">skills</a></li>
-        <li><a href="k">my works</a></li>
-    </ul>
-</div>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </section>
 
-<div id="aboutme">
-    <h1>About me</h1>
-    <p>مطور ويب ماهر وذوي خبرة ولديه شغف لإنشاء مواقع ويب سهلة الاستخدام وسريعة الاستجابة. قدرة مثبتة على تصميم وتطوير
-        JavaScript و CSS و 3 HTML وتنفيذ تطبيقات الويب باستخدام مجموعة متنوعة من لغات وأطر البرمجة. خبرة في 5
-        مهارات قوية في حل المشكلات والتحليل. .React و
-        مهارات تقنية
-        جافا سكريبت، رد الفعل ،HTML5، CSS لغات البرمجة: 3
-        الأطر: بوتستراب، مسج
-        Git : أنظمة التحكم في الإصدار
-        MySQL : قواعد البيانات
-        AWS : المنصات السحابية
-        خبرة</p>
-</div>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Skill 1</li>
+        <li>Skill 2</li>
+        <li>Skill 3</li>
+      </ul>
+    </section>
 
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>Project 1</li>
+        <li>Project 2</li>
+        <li>Project 3</li>
+      </ul>
+    </section>
 
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+        <label for="message">Message:</label>
+        <textarea id="message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
 
-
-
-
-    </body>
+  <footer>
+    <p>&copy; 2023 Personal Website</p>
+  </footer>
+</body>
 </html>
